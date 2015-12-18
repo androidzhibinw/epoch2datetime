@@ -33,6 +33,6 @@ if __name__ =='__main__':
     elif epoch_len == EPOCH_MS_LEN:
         print epochms2datetime(int_epoch)
     else:
-        print "lenth not correct!"
+        print 'lenth not correct!'
         print help_msg
 
