@@ -2,7 +2,8 @@
 from datetime import datetime,time
 import sys
 
-help_msg='Usage: epoch2datetime.py [epoch milliseconds from_1970|epoch seconds from 1970]'
+help_msg='Usage: epoch2datetime.py [epoch milliseconds from_1970|epoch seconds from 1970]' + '\n'\
+        +'Version: 0.0.1'
 
 DATE_FORMAT='%Y-%m-%d %H:%M:%S'
 EPOCH_MS_LEN=13
